@@ -1,0 +1,17 @@
+Data Structures in C:
+1.	Abstractions – High level description of a structure
+2.	A queue and a stack are abstract data structures
+3.	This means they’re up to the programmer to decide how they work.
+4.	Queue = FIFO
+5.	Stack = LIFO
+6.	Enqueueing – Adding elements
+7.	Dequeueing – Deleting elements
+8.	when we type the following code:
+a.	typedef struct {
+b.	…
+c.	…
+d.	} queue;
+9.	We are actually creating a data type with the name queue. Its structure is a struct, with whatever we defined inside it. 
+10.	If we did not write typedef, then we would just have a single structure called queue.
+11.	But now that we wrote typedef, we can reuse the word queue to create a similar data type whenever we want.
+12.	typedef just allowed us to create a data type essentially.
